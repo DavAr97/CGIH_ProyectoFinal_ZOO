@@ -154,6 +154,15 @@ int main()
 	Shader lightingShader("Shaders/lighting.vs", "Shaders/lighting.frag");
 	Shader lampShader("Shaders/lamp.vs", "Shaders/lamp.frag");	
 	Model Piso((char*)"Models/Esfera/Piso.obj");
+	Model Rino((char*)"Models/Rinoceronte/rino.obj");
+	Model Lobo1((char*)"Models/Lobo/lobo.obj");
+	Model Lobo2((char*)"Models/Lobo/lobo2.obj");
+	Model Oso((char*)"Models/Oso/oso.obj");
+	Model Leon1((char*)"Models/Leon/leon.obj");
+	Model Leon2((char*)"Models/Leon/leon1.obj");
+	Model Camello((char*)"Models/Camello/camello.obj");
+	Model Tortuga((char*)"Models/Tortuga/tortuga.obj");
+	Model Caiman((char*)"Models/Caiman/caiman.obj");
 	
 
 	// First, set the container's VAO (and VBO)
@@ -303,6 +312,15 @@ int main()
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		glUniform1f(glGetUniformLocation(lightingShader.Program, "activaTransparencia"), 0.0f);
 		glUniform4f(glGetUniformLocation(lightingShader.Program, "colorAlpha"), 1.0f, 1.0f, 1.0f, 1.0f);
+		//Rino.Draw(lightingShader);
+		//Lobo1.Draw(lightingShader);
+		//Lobo2.Draw(lightingShader);
+		//Oso.Draw(lightingShader);
+		//Leon1.Draw(lightingShader);
+		//Leon2.Draw(lightingShader);
+		//Camello.Draw(lightingShader);
+		//Tortuga.Draw(lightingShader);
+		Caiman.Draw(lightingShader);
 
 		//mesas
 		model = glm::mat4(1);
