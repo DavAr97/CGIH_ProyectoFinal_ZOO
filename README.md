@@ -1,2 +1,2 @@
 # CG-ZOO
- Proyecto de CGIH Teoria
+ Proyecto Final para la materia de teoria "computación gráfica e interacción humano computadora"
