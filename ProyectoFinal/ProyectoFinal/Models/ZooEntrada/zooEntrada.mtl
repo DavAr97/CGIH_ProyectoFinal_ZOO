@@ -1,0 +1,63 @@
+newmtl model:object_7
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd RGB_1d874ca8e63149e083bf981caca845c4_back_bush_diffuse.tga.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 9.85
+newmtl model:object_9
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd RGB_5a3a7e1b9ff445d4b53c7883e1676dff_tall_bush_diffuse.tga.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 9.85
+newmtl model:object_11
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd RGB_bb853fcbb12f45499c2966b7cf0a4d27_mainfloor_centergrass_water_brickpathway_d.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 9.85
+newmtl model:object_13
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd RGB_dbab09cfb1d94526bbcabc4a7d8b72cf_front_bush_and_grass_diffuse.tga.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 9.85
+newmtl model:object_15
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd RGB_89a1375b102c4c8f941d973f995bc7f3_bench_light_walls_gate_mapsign_cage_diffus.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 9.85
+newmtl model:object_17
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd RGB_89a1375b102c4c8f941d973f995bc7f3_bench_light_walls_gate_mapsign_cage_diffus.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 9.85
+newmtl model:object_19
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd RGB_e999d6901ddd425e9db1c56ba3f479e0_statues_fountain_bigsign_trees_diffuse.tga.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 9.85

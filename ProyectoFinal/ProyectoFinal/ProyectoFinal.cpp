@@ -163,7 +163,7 @@ int main()
 	Model Camello((char*)"Models/Camello/camello.obj");
 	Model Tortuga((char*)"Models/Tortuga/tortuga.obj");
 	Model Caiman((char*)"Models/Caiman/caiman.obj");
-	
+	Model Zoo((char*)"Models/ZooEntrada/zooEntrada.obj");
 
 	// First, set the container's VAO (and VBO)
 	GLuint VBO, VAO;
@@ -305,7 +305,7 @@ int main()
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		glUniform1f(glGetUniformLocation(lightingShader.Program, "activaTransparencia"), 0.0f);
 		glUniform4f(glGetUniformLocation(lightingShader.Program, "colorAlpha"), 1.0f,1.0f,1.0f,1.0f);
-		Piso.Draw(lightingShader);
+		//Piso.Draw(lightingShader);
 
 		//losa de la fachada
 		model = glm::mat4(1);
@@ -320,7 +320,8 @@ int main()
 		//Leon2.Draw(lightingShader);
 		//Camello.Draw(lightingShader);
 		//Tortuga.Draw(lightingShader);
-		Caiman.Draw(lightingShader);
+		//Caiman.Draw(lightingShader);
+		Zoo.Draw(lightingShader);
 
 		//mesas
 		model = glm::mat4(1);
